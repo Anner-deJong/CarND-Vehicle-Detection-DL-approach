@@ -1,0 +1,31 @@
+
+# sublime text specific
+*.swp
+*sublime*
+
+# exclude data
+data/
+
+# exclude test video?
+videos/
+
+# exclude model weights
+model_weights/
+
+# Exclude YOLO v3 repo
+Yolov3/
+yolov3_repo
+
+# what is this always present .DS_Store??
+.DS_Store
+
+# for jupyter notebooks
+.ipynb_checkpoints
+
+# adjust this later, we need some of these videos/images
+examples/
+output_images/
+test_images/
+videos/
+
+
