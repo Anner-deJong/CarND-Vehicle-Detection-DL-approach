@@ -3,8 +3,11 @@
 *.swp
 *sublime*
 
-# exclude data and data preprocessing
-data*/
+# exclude data
+data/
+
+# exclude utils function folder (currently not being used)
+utils/
 
 # exclude test video?
 videos/
@@ -14,7 +17,6 @@ model_weights/
 
 # Exclude YOLO v3 repo
 Yolov3/
-yolov3_repo
 
 # what is this always present .DS_Store??
 .DS_Store
