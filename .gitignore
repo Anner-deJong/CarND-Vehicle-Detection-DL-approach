@@ -3,8 +3,8 @@
 *.swp
 *sublime*
 
-# exclude data
-data/
+# exclude data and data preprocessing
+data*/
 
 # exclude test video?
 videos/
