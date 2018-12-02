@@ -13,7 +13,7 @@ data/
 videos/project*
 
 # Exclude YOLO v3 repo
-Yolov3/
+Yolov3/*
 # but include the substitute txt file
 !Yolov3/YOLOv3_REPOSITORY.txt
 
