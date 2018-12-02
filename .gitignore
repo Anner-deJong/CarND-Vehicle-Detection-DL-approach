@@ -14,6 +14,8 @@ videos/project*
 
 # Exclude YOLO v3 repo
 Yolov3/
+# but include the substitute txt file
+!Yolov3/YOLOv3_REPOSITORY.txt
 
 # what is this always present .DS_Store??
 .DS_Store
