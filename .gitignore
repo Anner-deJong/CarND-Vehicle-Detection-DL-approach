@@ -6,14 +6,8 @@
 # exclude data
 data/
 
-# exclude utils function folder (currently not being used)
-utils/
-
 # exclude test video?
-videos/
-
-# exclude model weights
-model_weights/
+videos/project*
 
 # Exclude YOLO v3 repo
 Yolov3/
@@ -23,11 +17,4 @@ Yolov3/
 
 # for jupyter notebooks
 .ipynb_checkpoints
-
-# adjust this later, we need some of these videos/images
-examples/
-output_images/
-test_images/
-videos/
-
 
