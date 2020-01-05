@@ -6,10 +6,11 @@
 ## Description
 
 **In the [original Udacity project](https://github.com/Anner-deJong/Self-Driving-Car/tree/master/CarND-Vehicle-Detection) I used a computer vision approach to detect vehicles on a highway, with [this result](https://drive.google.com/open?id=1_czpQYQxwkScnPqkoOtQgtBYlUTEc3fT).** <br>
-**The detection is okay, but not splendid. That's why right now I am revisiting this project, to see if I can improve on the prior result with a DL approach. <br> I First planned to train my own model, but with limited computing power, I instead opted for the following:** <br> <br>
+The detection is okay, but not splendid. That's why right now I am revisiting this project, to see if I can improve on the prior result with a DL approach. <br> I First planned to train my own model, but with limited computing power, I instead opted for the following: <br>
+<br>
 **I found an amazing tutorial from [Ayoosh Kathuria](https://blog.paperspace.com/tag/series-yolo/) that guides you in coding up a YOLO v3 detection model in PyTorch from almost scratch, only using the official YOLO v3 config file and weights. <br>
-I build the YOLO v3 model code as a separate, stand-alone [repository](https://github.com/Anner-deJong/YOLOv3-PyTorch). You will have to clone/download it in addition to this repository, in order to run this Vehicle Detection project. <br>
-**It is a pity the tutorial doesn't include the steps how to train the model, maybe I will try to build this later myself. However, the orignal weights are trained on the COCO dataset, which includes a car class - all we need for the current purpose).** <br>
+I build the YOLO v3 model code as a separate, stand-alone [repository](https://github.com/Anner-deJong/YOLOv3-PyTorch). You will have to clone/download it and replace the empty _Yolov3_ folder in this repository. Furtyhermore, follow instructions in the Yolov3 repository about how to get the weights.** <br>
+It is a pity the tutorial doesn't include the steps how to train the model, maybe I will try to build this later myself. However, the orignal weights are trained on the COCO dataset, which includes a car class - all we need for the current purpose). <br>
 
 ---
 
